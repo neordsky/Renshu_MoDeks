@@ -1,0 +1,660 @@
+
+{
+  "header": {
+    "reportVersion": 3,
+    "event": "Exception",
+    "trigger": "Exception",
+    "filename": "ReportEror.json",
+    "dumpEventTime": "2023-12-18T09:55:43Z",
+    "dumpEventTimeStamp": "1702868143822",
+    "processId": 7768,
+    "threadId": 0,
+    "cwd": "D:\\NodeJsRenshu",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      ".\\readline.mjs"
+    ],
+    "nodejsVersion": "v18.14.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "18.14.0",
+      "v8": "10.2.154.23-node.22",
+      "uv": "1.44.2",
+      "zlib": "1.2.13",
+      "brotli": "1.0.9",
+      "ares": "1.18.1",
+      "modules": "108",
+      "nghttp2": "1.51.0",
+      "napi": "8",
+      "llhttp": "6.0.10",
+      "uvwasi": "0.0.14",
+      "acorn": "8.8.1",
+      "simdutf": "3.1.0",
+      "undici": "5.14.0",
+      "openssl": "3.0.7+quic",
+      "cldr": "42.0",
+      "icu": "72.1",
+      "tz": "2022g",
+      "unicode": "15.0",
+      "ngtcp2": "0.8.1",
+      "nghttp3": "0.7.0"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Hydrogen",
+      "headersUrl": "https://nodejs.org/download/release/v18.14.0/node-v18.14.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v18.14.0/node-v18.14.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v18.14.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19045",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 5 5600G with Radeon Graphics         ",
+        "speed": 3900,
+        "user": 101671,
+        "nice": 0,
+        "sys": 183609,
+        "idle": 6360109,
+        "irq": 31718
+      },
+      {
+        "model": "AMD Ryzen 5 5600G with Radeon Graphics         ",
+        "speed": 3900,
+        "user": 78906,
+        "nice": 0,
+        "sys": 73578,
+        "idle": 6492906,
+        "irq": 1171
+      },
+      {
+        "model": "AMD Ryzen 5 5600G with Radeon Graphics         ",
+        "speed": 3900,
+        "user": 260546,
+        "nice": 0,
+        "sys": 130359,
+        "idle": 6254484,
+        "irq": 953
+      },
+      {
+        "model": "AMD Ryzen 5 5600G with Radeon Graphics         ",
+        "speed": 3900,
+        "user": 220546,
+        "nice": 0,
+        "sys": 118562,
+        "idle": 6306281,
+        "irq": 578
+      },
+      {
+        "model": "AMD Ryzen 5 5600G with Radeon Graphics         ",
+        "speed": 3900,
+        "user": 145046,
+        "nice": 0,
+        "sys": 96890,
+        "idle": 6403453,
+        "irq": 671
+      },
+      {
+        "model": "AMD Ryzen 5 5600G with Radeon Graphics         ",
+        "speed": 3900,
+        "user": 216906,
+        "nice": 0,
+        "sys": 162390,
+        "idle": 6266093,
+        "irq": 812
+      },
+      {
+        "model": "AMD Ryzen 5 5600G with Radeon Graphics         ",
+        "speed": 3900,
+        "user": 114046,
+        "nice": 0,
+        "sys": 124593,
+        "idle": 6406750,
+        "irq": 1296
+      },
+      {
+        "model": "AMD Ryzen 5 5600G with Radeon Graphics         ",
+        "speed": 3900,
+        "user": 89984,
+        "nice": 0,
+        "sys": 63875,
+        "idle": 6491531,
+        "irq": 468
+      },
+      {
+        "model": "AMD Ryzen 5 5600G with Radeon Graphics         ",
+        "speed": 3900,
+        "user": 330218,
+        "nice": 0,
+        "sys": 241640,
+        "idle": 6073453,
+        "irq": 3671
+      },
+      {
+        "model": "AMD Ryzen 5 5600G with Radeon Graphics         ",
+        "speed": 3900,
+        "user": 320796,
+        "nice": 0,
+        "sys": 203765,
+        "idle": 6120750,
+        "irq": 1234
+      },
+      {
+        "model": "AMD Ryzen 5 5600G with Radeon Graphics         ",
+        "speed": 3900,
+        "user": 125078,
+        "nice": 0,
+        "sys": 74484,
+        "idle": 6445750,
+        "irq": 984
+      },
+      {
+        "model": "AMD Ryzen 5 5600G with Radeon Graphics         ",
+        "speed": 3900,
+        "user": 106234,
+        "nice": 0,
+        "sys": 124828,
+        "idle": 6414250,
+        "irq": 1250
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "40:ed:00:b8:65:a3",
+        "address": "fe80::8ada:9145:189d:a9df",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 19
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "40:ed:00:b8:65:a3",
+        "address": "192.168.7.109",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "RPL-32"
+  },
+  "javascriptStack": {
+    "message": "Error: Yabaa",
+    "stack": [
+      "at Erorrre (file:///D:/NodeJsRenshu/readline.mjs:11:11)",
+      "at file:///D:/NodeJsRenshu/readline.mjs:14:1"
+    ],
+    "errorProperties": {
+    }
+  },
+  "javascriptHeap": {
+    "totalMemory": 9273344,
+    "executableMemory": 524288,
+    "totalCommittedMemory": 9273344,
+    "availableMemory": 2189583024,
+    "totalGlobalHandlesMemory": 16384,
+    "usedGlobalHandlesMemory": 10176,
+    "usedMemory": 8038744,
+    "memoryLimit": 2197815296,
+    "mallocedMemory": 516240,
+    "externalMemory": 906607,
+    "peakMallocedMemory": 1163448,
+    "nativeContextCount": 3,
+    "detachedContextCount": 0,
+    "doesZapGarbage": 0,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "old_space": {
+        "memorySize": 5685248,
+        "committedMemory": 5685248,
+        "capacity": 5585368,
+        "used": 5584088,
+        "available": 1280
+      },
+      "code_space": {
+        "memorySize": 471040,
+        "committedMemory": 471040,
+        "capacity": 434368,
+        "used": 434368,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 532480,
+        "committedMemory": 532480,
+        "capacity": 515632,
+        "used": 515576,
+        "available": 56
+      },
+      "large_object_space": {
+        "memorySize": 487424,
+        "committedMemory": 487424,
+        "capacity": 482496,
+        "used": 482496,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1030976,
+        "used": 0,
+        "available": 1030976
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 2097152,
+        "capacity": 1030976,
+        "used": 1022216,
+        "available": 8760
+      }
+    }
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff782a615b9",
+      "symbol": "node::GetNodeReport+14265"
+    },
+    {
+      "pc": "0x00007ff782a6625a",
+      "symbol": "node::TriggerNodeReport+4634"
+    },
+    {
+      "pc": "0x00007ff782a64da8",
+      "symbol": "node::TriggerNodeReport+2600"
+    },
+    {
+      "pc": "0x00007ff782a643c1",
+      "symbol": "node::TriggerNodeReport+65"
+    },
+    {
+      "pc": "0x00007ff782ae88ab",
+      "symbol": "node::OnFatalError+6635"
+    },
+    {
+      "pc": "0x00007ff782ae9417",
+      "symbol": "node::OnFatalError+9559"
+    },
+    {
+      "pc": "0x00007ff782ae912c",
+      "symbol": "node::OnFatalError+8812"
+    },
+    {
+      "pc": "0x00007ff783538aad",
+      "symbol": "v8::internal::Builtins::code+248237"
+    },
+    {
+      "pc": "0x00007ff7835386b9",
+      "symbol": "v8::internal::Builtins::code+247225"
+    },
+    {
+      "pc": "0x00007ff78353897c",
+      "symbol": "v8::internal::Builtins::code+247932"
+    },
+    {
+      "pc": "0x00007ff7835387e0",
+      "symbol": "v8::internal::Builtins::code+247520"
+    },
+    {
+      "pc": "0x00007ff78361d6c1",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+558449"
+    },
+    {
+      "pc": "0x00007ff7835a0fd4",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+48772"
+    },
+    {
+      "pc": "0x00007ff7835d504b",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+261883"
+    },
+    {
+      "pc": "0x00007ff78366e078",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+888616"
+    },
+    {
+      "pc": "0x00007ff7835c6954",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+202756"
+    },
+    {
+      "pc": "0x00007ff78359f4db",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+41867"
+    },
+    {
+      "pc": "0x00007ff78346999a",
+      "symbol": "v8::internal::Execution::CallWasm+1562"
+    },
+    {
+      "pc": "0x00007ff783469abb",
+      "symbol": "v8::internal::Execution::CallWasm+1851"
+    },
+    {
+      "pc": "0x00007ff78346a86a",
+      "symbol": "v8::internal::Execution::TryCallScript+346"
+    },
+    {
+      "pc": "0x00007ff78344338a",
+      "symbol": "v8::internal::MicrotaskQueue::RunMicrotasks+410"
+    },
+    {
+      "pc": "0x00007ff78344312a",
+      "symbol": "v8::internal::MicrotaskQueue::PerformCheckpointInternal+74"
+    },
+    {
+      "pc": "0x00007ff782b8e53c",
+      "symbol": "node::CallbackScope::~CallbackScope+428"
+    },
+    {
+      "pc": "0x00007ff782b8e3fe",
+      "symbol": "node::CallbackScope::~CallbackScope+110"
+    },
+    {
+      "pc": "0x00007ff782acedf5",
+      "symbol": "v8::base::CPU::has_fpu+38917"
+    },
+    {
+      "pc": "0x00007ff782adff75",
+      "symbol": "SSL_get_quiet_shutdown+39685"
+    },
+    {
+      "pc": "0x00007ff782bbf717",
+      "symbol": "uv_timer_stop+1207"
+    },
+    {
+      "pc": "0x00007ff782bbbb8b",
+      "symbol": "uv_update_time+491"
+    },
+    {
+      "pc": "0x00007ff782bbb6d2",
+      "symbol": "uv_run+1266"
+    },
+    {
+      "pc": "0x00007ff782b8ddb5",
+      "symbol": "node::SpinEventLoop+325"
+    },
+    {
+      "pc": "0x00007ff782a9ce28",
+      "symbol": "OSSL_STORE_LOADER_get0_description+149304"
+    },
+    {
+      "pc": "0x00007ff782b21a61",
+      "symbol": "node::InitializeOncePerProcess+2897"
+    },
+    {
+      "pc": "0x00007ff782b23265",
+      "symbol": "node::Start+821"
+    },
+    {
+      "pc": "0x00007ff782927dec",
+      "symbol": "CRYPTO_memcmp+441980"
+    },
+    {
+      "pc": "0x00007ff783b75c78",
+      "symbol": "inflateValidate+18888"
+    },
+    {
+      "pc": "0x00007ff9ca077344",
+      "symbol": "BaseThreadInitThunk+20"
+    },
+    {
+      "pc": "0x00007ff9ca5226b1",
+      "symbol": "RtlUserThreadStart+33"
+    }
+  ],
+  "resourceUsage": {
+    "free_memory": "6385283072",
+    "total_memory": "16506859520",
+    "rss": "41021440",
+    "available_memory": "6385283072",
+    "userCpuSeconds": 0.156,
+    "kernelCpuSeconds": 0.062,
+    "cpuConsumptionPercent": 21.8,
+    "userCpuConsumptionPercent": 15.6,
+    "kernelCpuConsumptionPercent": 6.2,
+    "maxRss": "63262720",
+    "pageFaults": {
+      "IORequired": 17996,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 10,
+      "writes": 67
+    }
+  },
+  "libuv": [
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000021a4c94b1c0"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00007ff786a10cb0"
+    },
+    {
+      "type": "timer",
+      "is_active": false,
+      "is_referenced": false,
+      "address": "0x0000021a4e414490",
+      "repeat": 0,
+      "firesInMsFromNow": -6645480,
+      "expired": true
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000021a4e414530"
+    },
+    {
+      "type": "idle",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000021a4e4145a8"
+    },
+    {
+      "type": "prepare",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000021a4e414620"
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000021a4e414698"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000021a4e414710"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00007ff786a10b80"
+    },
+    {
+      "type": "process",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000021a4e48cbc8",
+      "pid": 11540
+    },
+    {
+      "type": "timer",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000021a4e3d9a68",
+      "repeat": 0,
+      "firesInMsFromNow": 8099,
+      "expired": false
+    },
+    {
+      "type": "pipe",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000021a4c8bd388",
+      "localEndpoint": null,
+      "remoteEndpoint": "\\\\?\\pipe\\uv\\0000000000000000-13272",
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "type": "pipe",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000021a4c69bb88",
+      "localEndpoint": null,
+      "remoteEndpoint": "\\\\?\\pipe\\uv\\FFFFFFFFFFFFFFFF-13272",
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "type": "pipe",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000021a4c94c248",
+      "localEndpoint": null,
+      "remoteEndpoint": "\\\\?\\pipe\\uv\\0000000000000009-13272",
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "type": "loop",
+      "is_active": false,
+      "address": "0x00007ff786c9c4f0",
+      "loopIdleTimeSeconds": 1.18e-05
+    }
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Win 10\\AppData\\Roaming",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_8900_PXHQVQEKYCPYHCSI",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "RPL-32",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Win 10",
+    "LOCALAPPDATA": "C:\\Users\\Win 10\\AppData\\Local",
+    "LOGONSERVER": "\\\\RPL-32",
+    "NODE_OPTIONS": " --require \"c:/Users/Win 10/AppData/Local/Programs/Microsoft VS Code/resources/app/extensions/ms-vscode.js-debug/src/bootloader.js\"  --inspect-publish-uid=http",
+    "NUMBER_OF_PROCESSORS": "12",
+    "OneDrive": "C:\\Users\\Win 10\\OneDrive",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "Path": "C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\flutter\\flutter\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\flutter\\flutter\\bin\\cache\\dart-sdk\\bin;C:\\flutter\\flutter\\bin\\cache\\dart-sdk\\bin;C:\\flutter\\flutter\\pub-cache\\bin;C:\\flutter\\flutterl\\App\\Local\\Pub\\Cache\\bin;C:\\Users\\Win 10\\AppData\\Local\\Pub\\Cache\\bin;C:\\flutter\\flutter\\bin\\cache\\dart-sdk\\bin;C:\\Users\\Win 10\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Win 10\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Win 10\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\Users\\Win 10\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Win 10\\.dotnet\\tools;C:\\flutter\\flutter\\bin;C:\\flutter\\flutter\\bin\\cache\\dart-sdk\\bin;C:\\flutter\\flutter\\bin\\cache\\dart-sdk\\bin;C:\\flutter\\flutter\\pub-cache\\bin;C:\\flutter\\flutter\\App\\Local\\Pub\\Cache\\bin;C:\\Users\\Win 10\\AppData\\Local\\Pub\\Cache\\bin;",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "PROCESSOR_LEVEL": "25",
+    "PROCESSOR_REVISION": "5000",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\WIN10~1\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\WIN10~1\\AppData\\Local\\Temp",
+    "USERDOMAIN": "RPL-32",
+    "USERDOMAIN_ROAMINGPROFILE": "RPL-32",
+    "USERNAME": "Win 10",
+    "USERPROFILE": "C:\\Users\\Win 10",
+    "VS100COMNTOOLS": "c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\",
+    "VSCODE_INSPECTOR_OPTIONS": "{\"inspectorIpc\":\"\\\\\\\\.\\\\pipe\\\\node-cdp.13272-13f3c24e-85.sock\",\"deferredMode\":false,\"waitForDebugger\":\"\",\"execPath\":\"C:\\\\Program Files\\\\nodejs\\\\node.exe\",\"onlyEntrypoint\":false,\"autoAttachMode\":\"always\",\"openerId\":\"00fe569e9cbb9c05a07cf70a\"}",
+    "windir": "C:\\Windows"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\SYSTEM32\\powrprof.dll",
+    "C:\\Windows\\SYSTEM32\\UMPDC.dll",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\bcryptprimitives.dll",
+    "C:\\Windows\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\system32\\wshbth.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\System32\\winrnr.dll"
+  ]
+}

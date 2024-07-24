@@ -1,0 +1,121 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model users {
+ Id           Int                 @id@default(autoincrement())
+ Username     String              @db.VarChar(200)
+ Password     String              @db.VarChar(200)
+ Token        String?             @db.VarChar(200)
+ Contacts     Contact[]
+ @@map("users")
+
+}
+
+model Contact {
+  idco            Int        @id@default(autoincrement())
+  Name            String     @db.VarChar(200)
+  Email           String?    @db.VarChar(200)
+  Alamat          String     @db.VarChar(200)
+  Phone           String?    @db.VarChar(200)
+  Id              Int        
+  User            users      @relation(fields:[Id], references:[Id])
+  Addresses       Address[]
+  @@map("Contact")
+
+}
+
+model Address {
+  id              Int       @id@default(autoincrement())
+  Street          String?   @db.VarChar(255)
+  City            String?    @db.VarChar(255)
+  Province        String?    @db.VarChar(255)
+  Country         String    @db.VarChar(255)
+  Postal_code     String?    @db.VarChar(255)
+  ContactId       Int     
+  Contact        Contact     @relation(fields:[ContactId], references:[idco])
+  @@map("Address")
+}
+
+model product {
+  Kode_Barang  String     @unique
+  Nama_Barang  String     @db.VarChar(255)
+  Harga_Barang  Int       @db.Int
+  Jumlah_Barang Int       @db.Int
+  Image         String    @db.VarChar(255)
+
+  @@map("product")
+}
+
+model ProPopu {
+  Kode_Barang     Int       @unique@id@default(autoincrement())
+  Nama_Barang      String      @db.VarChar(255)
+  Harga_Barang     Int         @db.Int
+  Jumlah_Barang     Int        @db.Int
+  Jenis             String     @db.VarChar(255)
+  Image              String     @db.VarChar(255)
+
+  @@map("ProPopu")
+}
+
+model NewProduct {
+  Kode_Barang     Int       @unique@id@default(autoincrement())
+  Nama_Barang      String      @db.VarChar(255)
+  Harga_Barang     Int         @db.Int
+  Jumlah_Barang     Int        @db.Int
+  Jenis             String     @db.VarChar(255)
+  Image              String     @db.VarChar(255)
+
+}
+model newusers {
+ Id           Int                 @id@default(autoincrement())
+ Username     String              @db.VarChar(200)
+ Password     String              @db.VarChar(200)
+ Alamat       String             @db.VarChar(200)
+}
+
+model petugas {
+ id_petugas        Int           @id@default(autoincrement())
+ nama_petugas      String        @db.VarChar(35)
+ username          String        @db.VarChar(32)
+ password          String        @db.VarChar(255)
+ telp              String        @db.VarChar(13)
+ level             String        @db.VarChar(13) 
+
+}
+
+model masyarakat {
+  nik             String         @id@db.VarChar(16)
+  nama_lengkap    String         @db.VarChar(35)
+  username        String         @db.VarChar(32)
+  password        String         @db.VarChar(255)
+  telp            String         @db.VarChar(13)
+  level           String         @db.VarChar(15)
+  token           String?         @db.VarChar(255)
+}
+
+model pengaduan {
+  id_pengaduan    Int           @id@default(autoincrement())
+  tgl_pengaduan   DateTime       @default(now())
+  nik             String        @db.VarChar(16)
+  judul_laporan   String        @db.VarChar(255)
+  isi_laporan     String        @db.VarChar(255)
+  foto            String         @db.VarChar(255)
+  status          String        @db.VarChar(20)        
+}
+
+model tanggapan {
+  id_tanggapan   Int       @id@default(autoincrement())
+  id_pengaduan   Int       @db.Int
+  tgl_tanggapan  DateTime  @default(now())
+  tanggapan      String     @db.VarChar(255)
+  id_petugas     Int        @db.Int
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/shobai_ten/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/shobai_ten/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/shobai_ten/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Absensi_Pkl/absensi_pkl/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Absensi_Pkl/absensi_pkl/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Absensi_Pkl/absensi_pkl/build" />
+      <excludeFolder url="file://$MODULE_DIR$/jiken/build" />
+      <excludeFolder url="file://$MODULE_DIR$/jiken/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/jiken/.dart_tool" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

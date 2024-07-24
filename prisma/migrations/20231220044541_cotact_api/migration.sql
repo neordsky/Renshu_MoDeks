@@ -1,0 +1,14 @@
+-- CreateTable
+CREATE TABLE `Contact` (
+    `idco` INTEGER NOT NULL AUTO_INCREMENT,
+    `Name` VARCHAR(200) NOT NULL,
+    `Email` VARCHAR(200) NULL,
+    `Alamat` VARCHAR(200) NOT NULL,
+    `Phone` VARCHAR(200) NULL,
+    `Id` INTEGER NOT NULL,
+
+    PRIMARY KEY (`idco`)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+-- AddForeignKey
+ALTER TABLE `Contact` ADD CONSTRAINT `Contact_Id_fkey` FOREIGN KEY (`Id`) REFERENCES `users`(`Id`) ON DELETE RESTRICT ON UPDATE CASCADE;
